@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &616433579666161113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7797553517863842653}
+  - component: {fileID: 410163462180844900}
+  m_Layer: 0
+  m_Name: Interspinales thoracis muscles.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7797553517863842653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616433579666161113}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.6056069, y: 17.907837, z: 106.23416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3526528741621572955}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410163462180844900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616433579666161113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 6613597127075424845}
+  MaxDistanceConnectedPieces: 0.05
+--- !u!1 &4037277529210770179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3526528741621572955}
+  - component: {fileID: 4962417502950687166}
+  - component: {fileID: 9165562757379578244}
+  - component: {fileID: 8404007761102042323}
+  - component: {fileID: 2428434063834586785}
+  - component: {fileID: 6613597127075424845}
+  - component: {fileID: 5471503750048879841}
+  m_Layer: 8
+  m_Name: /Muscular system.g_LOW_80_70/Dorsal part of muscular system.g/Epaxial muscles.g/Interspinales
+    muscles.g/Interspinales thoracis muscles.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3526528741621572955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_LocalRotation: {x: -1, y: -0.00000003178651, z: 0.000000043711385, w: -0.00000026822087}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20000, y: -19999.998, z: -19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7797553517863842653}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4962417502950687166
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Mesh: {fileID: 4300000, guid: 87672100bfb96bc4aaf8f2ebee9f702b, type: 2}
+--- !u!23 &9165562757379578244
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b35ddd32b6e1a9348926864e81744a8a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8404007761102042323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Muscular system.g_LOW_80_70/Dorsal part of muscular system.g/Epaxial muscles.g/Interspinales
+    muscles.g/Interspinales thoracis muscles.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 2428434063834586785}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: b35ddd32b6e1a9348926864e81744a8a, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.654902, g: 0.43137255, b: 0.28235292, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 3496
+    Name: Vertebra T2
+    NameSource: Vertebra T2
+    Path: 
+    Color: '#AEBEBD'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &2428434063834586785
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 87672100bfb96bc4aaf8f2ebee9f702b, type: 2}
+--- !u!114 &6613597127075424845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 410163462180844900}
+  ConnectedPieces: []
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.00003073585, y: 180, z: 180}
+  KDTree: {fileID: 5471503750048879841}
+  Collider: {fileID: 2428434063834586785}
+  organGroup: {fileID: 0}
+--- !u!114 &5471503750048879841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4037277529210770179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

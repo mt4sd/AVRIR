@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6095915744369834585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498204617021258686}
+  - component: {fileID: 975378853374948529}
+  - component: {fileID: 2515081064098209666}
+  - component: {fileID: 7346073205565594582}
+  - component: {fileID: 66000083024972836}
+  m_Layer: 8
+  m_Name: Obliquus inferior capitis muscle.r-Unified
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498204617021258686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095915744369834585}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.444896, y: 6.635956, z: 130.40381}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &975378853374948529
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095915744369834585}
+  m_Mesh: {fileID: 4300000, guid: 38a281a7d729efa4e897912ee2114267, type: 2}
+--- !u!23 &2515081064098209666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095915744369834585}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 20bd04e16de5ce64b9c438409a5d0328, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7346073205565594582
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095915744369834585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38a281a7d729efa4e897912ee2114267, type: 2}
+--- !u!114 &66000083024972836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6095915744369834585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Muscular system.g_LOW_80_70/Dorsal part of muscular system.g/Epaxial muscles.g/Suboccipital
+    muscles.g/Obliquus inferior capitis muscle.r
+  BodyType: Muscular system.g_LOW_80_70
+  BodyPart: 5
+  Collider: {fileID: 7346073205565594582}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 20bd04e16de5ce64b9c438409a5d0328, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.5019608, g: 0.29019603, b: 0.16862738, a: 1}
+  DividedPrefab: {fileID: 7961423931948043518, guid: de1f748848d44e64fa1cda43d61003f7,
+    type: 3}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 1
+  MorgueIsInPlace: 1

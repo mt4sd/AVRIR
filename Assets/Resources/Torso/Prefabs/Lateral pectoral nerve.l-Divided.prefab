@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &210042448373595133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1457883838904000656}
+  - component: {fileID: 5106259073649838311}
+  - component: {fileID: 574866693142316345}
+  - component: {fileID: 260156094101108402}
+  - component: {fileID: 149183400672593589}
+  - component: {fileID: 5913502006300606312}
+  - component: {fileID: 8221168225600411688}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Branches of lateral cord of brachial plexus.g/Lateral
+    pectoral nerve.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457883838904000656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_LocalRotation: {x: -1, y: -2.1184055e-15, z: -7.930187e-15, w: -0.000000119209275}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20000.004, y: -19999.998, z: -19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 822291035809537993}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5106259073649838311
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Mesh: {fileID: 4300000, guid: 26b7df8962691f847828ffeeffd9a4d6, type: 2}
+--- !u!23 &574866693142316345
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &260156094101108402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Branches of lateral cord of brachial plexus.g/Lateral
+    pectoral nerve.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 149183400672593589}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 208
+    Name: Left pectoral region
+    NameSource: Pectoral region.l
+    Path: 
+    Color: '#B69C8D'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 206
+    Name: Left mammary region
+    NameSource: Mammary region.l
+    Path: 
+    Color: '#B69C8D'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 2324
+    Name: Left lateral pectoral nerve
+    NameSource: Lateral pectoral nerve.l
+    Path: 
+    Color: '#DAC9A3'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 260156094101108402}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &149183400672593589
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 26b7df8962691f847828ffeeffd9a4d6, type: 2}
+--- !u!114 &5913502006300606312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 3866990277279897257}
+  ConnectedPieces: []
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 8221168225600411688}
+  Collider: {fileID: 149183400672593589}
+  organGroup: {fileID: 0}
+--- !u!114 &8221168225600411688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210042448373595133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1657371725088561996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822291035809537993}
+  - component: {fileID: 3866990277279897257}
+  m_Layer: 0
+  m_Name: Lateral pectoral nerve.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822291035809537993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657371725088561996}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.094961, y: -14.126099, z: 89.36691}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1457883838904000656}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3866990277279897257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657371725088561996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 5913502006300606312}
+  MaxDistanceConnectedPieces: 0.05

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3da33e8ba94c49abd87948e9856fb, type: 3}
+  m_Name: Challenge_0-Positioning
+  m_EditorClassIdentifier: 
+  Name: Positioning
+  Icon: {fileID: -1019710352, guid: e29ab478c8e949c40948e38ff3267768, type: 3}
+  VRScreensImage: {fileID: 21300000, guid: 6d5eb69b742217240beed68e26a5bde5, type: 3}
+  Description: "1. Mira tus manos e identifica tu color\r\n\r\n2. Mira hacia el suelo
+    y busca un c\xEDrculo con huellas de tu color\r\n\r\n3. Despl\xE1zate f\xEDsicamente
+    al centro de ese c\xEDrculo hasta que tus pies coincidan con las huellas"
+  isActived: 0
+  IsFinished: 0
+  PlayersList: 

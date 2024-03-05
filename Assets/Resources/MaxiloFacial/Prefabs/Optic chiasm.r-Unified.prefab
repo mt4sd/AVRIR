@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4514898198279152342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7870848655288901584}
+  - component: {fileID: 6587814942509924597}
+  - component: {fileID: 5392862307785593714}
+  - component: {fileID: 6556671982261675322}
+  - component: {fileID: 897063470157617043}
+  m_Layer: 8
+  m_Name: Optic chiasm.r-Unified
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7870848655288901584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514898198279152342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7659334, y: -3.2792053, z: 147.39203}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6587814942509924597
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514898198279152342}
+  m_Mesh: {fileID: 4300000, guid: b6255eeb832ddde4190b9abf207421c4, type: 2}
+--- !u!23 &5392862307785593714
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514898198279152342}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6556671982261675322
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514898198279152342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: b6255eeb832ddde4190b9abf207421c4, type: 2}
+--- !u!114 &897063470157617043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4514898198279152342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Central nervous system.g/Brain.g/Cerebrum.g/Diencephalon.g/Optic
+    chiasm.r
+  BodyType: Nervous system & Sense organs.g_LOW_80
+  BodyPart: 1
+  Collider: {fileID: 6556671982261675322}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 2926478470534611341, guid: 37a76135c0e74a246bafb96383016772,
+    type: 3}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 1
+  MorgueIsInPlace: 1

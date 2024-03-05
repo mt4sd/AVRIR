@@ -1,0 +1,1036 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1707124402405575825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4419446302355677154}
+  - component: {fileID: 4293665635748746306}
+  - component: {fileID: 1075404975787243728}
+  - component: {fileID: 4157292604562276840}
+  - component: {fileID: 1158744633094627376}
+  - component: {fileID: 8369797917304776177}
+  - component: {fileID: 7160894189723977839}
+  m_Layer: 8
+  m_Name: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Serratus posterior superior on 2nd rib.r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4419446302355677154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_LocalRotation: {x: 0.0000001187436, y: 0.000000020065023, z: 0.00000003261853,
+    w: 1}
+  m_LocalPosition: {x: -2.923833, y: 5.6820974, z: 4.1569443}
+  m_LocalScale: {x: -19999.998, y: 19999.984, z: 19999.994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4012800551415461536}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4293665635748746306
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Mesh: {fileID: 4300000, guid: 9df19964b1dfdc549b26951d21f602e9, type: 2}
+--- !u!23 &1075404975787243728
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4a84aa1dd56642942bfee19acf6a7819, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4157292604562276840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Serratus posterior superior on 2nd rib.r
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 1158744633094627376}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 4a84aa1dd56642942bfee19acf6a7819, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.882353, g: 0.83921576, b: 0.7490196, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &1158744633094627376
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9df19964b1dfdc549b26951d21f602e9, type: 2}
+--- !u!114 &8369797917304776177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4147242863571832594}
+  ConnectedPieces:
+  - originalPiece: {fileID: 4419446302355677154}
+    Piece: {fileID: 1292109370567769029}
+    LocalPosition: {x: -0.00014619164, y: -0.00028410513, z: -0.00020784722}
+    DistanceTo: {x: -2.9238327, y: 5.6820984, z: 4.156943}
+    rotation: {x: -4.656755e-10, y: -3.567903e-15, z: -3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4419446302355677154}
+    Piece: {fileID: 3305072466267976804}
+    LocalPosition: {x: -0.00019429265, y: 0.00006679011, z: 0.000081555954}
+    DistanceTo: {x: -3.8858528, y: -1.3358012, z: -1.6311187}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4419446302355677154}
+    Piece: {fileID: 2268980534535943155}
+    LocalPosition: {x: -0.00019637843, y: 0.000089311674, z: 0.000065393455}
+    DistanceTo: {x: -3.9275684, y: -1.786232, z: -1.3078687}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4419446302355677154}
+    Piece: {fileID: 3533219559922611226}
+    LocalPosition: {x: 0.00026820393, y: -0.00028431194, z: -0.00029965022}
+    DistanceTo: {x: 5.3640785, y: 5.6862345, z: 5.993003}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -2.923833, y: 5.6820974, z: 4.1569443}
+  LocalRotationOnParent: {x: 0.000013607015, y: 0.0000022992826, z: 0.0000037378086}
+  KDTree: {fileID: 7160894189723977839}
+  Collider: {fileID: 1158744633094627376}
+  organGroup: {fileID: 0}
+--- !u!114 &7160894189723977839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707124402405575825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2816201132742558774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414700049937600123}
+  - component: {fileID: 4222518042779945816}
+  - component: {fileID: 4504603786875400506}
+  - component: {fileID: 7732936249441806325}
+  - component: {fileID: 7535593430574267845}
+  - component: {fileID: 3305072466267976804}
+  - component: {fileID: 5964154713185549268}
+  m_Layer: 8
+  m_Name: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Levatores longi costarum on 2nd rib.r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414700049937600123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_LocalRotation: {x: 0.0000001187436, y: 0.000000020065023, z: 0.00000003261853,
+    w: 1}
+  m_LocalPosition: {x: 0.9620199, y: 7.0178986, z: 5.788063}
+  m_LocalScale: {x: -19999.998, y: 19999.984, z: 19999.994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4012800551415461536}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4222518042779945816
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Mesh: {fileID: 4300000, guid: 397d17368b4556d448851d9d5532ae93, type: 2}
+--- !u!23 &4504603786875400506
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ac7456a2d8856f14ca11e8a744ec18af, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7732936249441806325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Levatores longi costarum on 2nd rib.r
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 7535593430574267845}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: ac7456a2d8856f14ca11e8a744ec18af, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &7535593430574267845
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 397d17368b4556d448851d9d5532ae93, type: 2}
+--- !u!114 &3305072466267976804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4147242863571832594}
+  ConnectedPieces:
+  - originalPiece: {fileID: 1414700049937600123}
+    Piece: {fileID: 1292109370567769029}
+    LocalPosition: {x: 0.00004810101, y: -0.00035089528, z: -0.0002894032}
+    DistanceTo: {x: 0.96202016, y: 7.0179, z: 5.7880616}
+    rotation: {x: -4.656755e-10, y: -3.567903e-15, z: -3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 1414700049937600123}
+    Piece: {fileID: 2268980534535943155}
+    LocalPosition: {x: -0.0000020857833, y: 0.000022521557, z: -0.000016162503}
+    DistanceTo: {x: -0.041715663, y: -0.45043078, z: 0.32324994}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 1414700049937600123}
+    Piece: {fileID: 3533219559922611226}
+    LocalPosition: {x: 0.0004624966, y: -0.00035110206, z: -0.00038120622}
+    DistanceTo: {x: 9.249931, y: 7.022036, z: 7.624121}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 1414700049937600123}
+    Piece: {fileID: 8369797917304776177}
+    LocalPosition: {x: 0.00019429265, y: -0.00006679011, z: -0.000081555954}
+    DistanceTo: {x: 3.8858528, y: 1.3358012, z: 1.6311187}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 0.9620199, y: 7.0178986, z: 5.788063}
+  LocalRotationOnParent: {x: 0.000013607015, y: 0.0000022992826, z: 0.0000037378086}
+  KDTree: {fileID: 5964154713185549268}
+  Collider: {fileID: 7535593430574267845}
+  organGroup: {fileID: 0}
+--- !u!114 &5964154713185549268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2816201132742558774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3908463698774101977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2226417268089033658}
+  - component: {fileID: 5287388058420003806}
+  - component: {fileID: 5982000115349798768}
+  - component: {fileID: 9003594880570115876}
+  - component: {fileID: 5491843896756435620}
+  - component: {fileID: 3533219559922611226}
+  - component: {fileID: 3889991571439783928}
+  m_Layer: 8
+  m_Name: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Serratus anterior muscle on 2nd rib.r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2226417268089033658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_LocalRotation: {x: 0.0000001187436, y: 0.000000020065023, z: 0.00000003261853,
+    w: 1}
+  m_LocalPosition: {x: -8.287911, y: -0.004136324, z: -1.8360596}
+  m_LocalScale: {x: -19999.998, y: 19999.984, z: 19999.994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4012800551415461536}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5287388058420003806
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Mesh: {fileID: 4300000, guid: ae0d4dad3dc761741be3d2ffb818e480, type: 2}
+--- !u!23 &5982000115349798768
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 16e495c18b4fb1042bc3efa13c23d890, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9003594880570115876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Serratus anterior muscle on 2nd rib.r
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 5491843896756435620}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 16e495c18b4fb1042bc3efa13c23d890, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.8588236, g: 0.8000001, b: 0.68235296, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 1374
+    Name: Right pectoral branches of thoraco-acromial artery
+    NameSource: Pectoral branches of thoraco-acromial artery.r
+    Path: 
+    Color: '#B77074'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &5491843896756435620
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ae0d4dad3dc761741be3d2ffb818e480, type: 2}
+--- !u!114 &3533219559922611226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4147242863571832594}
+  ConnectedPieces:
+  - originalPiece: {fileID: 2226417268089033658}
+    Piece: {fileID: 1292109370567769029}
+    LocalPosition: {x: -0.0004143956, y: 0.00000020681112, z: 0.00009180303}
+    DistanceTo: {x: -8.287911, y: -0.004136219, z: -1.8360599}
+    rotation: {x: -4.656755e-10, y: -3.567903e-15, z: -3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 2226417268089033658}
+    Piece: {fileID: 3305072466267976804}
+    LocalPosition: {x: -0.0004624966, y: 0.00035110206, z: 0.00038120622}
+    DistanceTo: {x: -9.249931, y: -7.022036, z: -7.624121}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 2226417268089033658}
+    Piece: {fileID: 2268980534535943155}
+    LocalPosition: {x: -0.00046458238, y: 0.00037362362, z: 0.0003650437}
+    DistanceTo: {x: -9.291647, y: -7.4724665, z: -7.3008714}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 2226417268089033658}
+    Piece: {fileID: 8369797917304776177}
+    LocalPosition: {x: -0.00026820393, y: 0.00028431194, z: 0.00029965022}
+    DistanceTo: {x: -5.3640785, y: -5.6862345, z: -5.993003}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -8.287911, y: -0.004136324, z: -1.8360596}
+  LocalRotationOnParent: {x: 0.000013607015, y: 0.0000022992826, z: 0.0000037378086}
+  KDTree: {fileID: 3889991571439783928}
+  Collider: {fileID: 5491843896756435620}
+  organGroup: {fileID: 0}
+--- !u!114 &3889991571439783928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3908463698774101977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4668152164064698920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4012800551415461536}
+  - component: {fileID: 4147242863571832594}
+  m_Layer: 0
+  m_Name: Second rib.r-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4012800551415461536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668152164064698920}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.341481, y: 1.2170105, z: 105.279236}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8020755875005653404}
+  - {fileID: 1414700049937600123}
+  - {fileID: 3942337658996201967}
+  - {fileID: 2226417268089033658}
+  - {fileID: 4419446302355677154}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4147242863571832594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668152164064698920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 1292109370567769029}
+  - {fileID: 3305072466267976804}
+  - {fileID: 2268980534535943155}
+  - {fileID: 3533219559922611226}
+  - {fileID: 8369797917304776177}
+  MaxDistanceConnectedPieces: 0.05
+--- !u!1 &7339459082386930699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8020755875005653404}
+  - component: {fileID: 5028009016086651032}
+  - component: {fileID: 1693945803914662870}
+  - component: {fileID: 3080173874869180094}
+  - component: {fileID: 6761196647457453704}
+  - component: {fileID: 1292109370567769029}
+  - component: {fileID: 1318576773036528993}
+  m_Layer: 8
+  m_Name: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8020755875005653404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_LocalRotation: {x: 0.000000119209275, y: 0.000000020065027, z: 0.000000032618534,
+    w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -19999.996, y: 19999.982, z: 19999.996}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4012800551415461536}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5028009016086651032
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Mesh: {fileID: 4300000, guid: b4706963ed7ca3f46a6223ff272f8e05, type: 2}
+--- !u!23 &1693945803914662870
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ed8a5a7225f6ecb459cc39157e55ccf3, type: 2}
+  - {fileID: 2100000, guid: 155746480962d904caae7384e07d0c1b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3080173874869180094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 6761196647457453704}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: ed8a5a7225f6ecb459cc39157e55ccf3, type: 2}
+  - {fileID: 2100000, guid: 155746480962d904caae7384e07d0c1b, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.8352942, g: 0.7254902, b: 0.5254902, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList: []
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 3346
+    Name: Right second rib
+    NameSource: Second rib.r
+    Path: 
+    Color: '#D5B986'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 3080173874869180094}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &6761196647457453704
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: b4706963ed7ca3f46a6223ff272f8e05, type: 2}
+--- !u!114 &1292109370567769029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4147242863571832594}
+  ConnectedPieces:
+  - originalPiece: {fileID: 8020755875005653404}
+    Piece: {fileID: 3305072466267976804}
+    LocalPosition: {x: -0.000048101017, y: 0.0003508953, z: 0.0002894031}
+    DistanceTo: {x: -0.96202016, y: -7.0179, z: -5.7880616}
+    rotation: {x: 4.656755e-10, y: 3.567903e-15, z: 3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8020755875005653404}
+    Piece: {fileID: 2268980534535943155}
+    LocalPosition: {x: -0.000050186798, y: 0.0003734169, z: 0.0002732406}
+    DistanceTo: {x: -1.0037358, y: -7.468331, z: -5.4648113}
+    rotation: {x: 4.656755e-10, y: 3.567903e-15, z: 3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8020755875005653404}
+    Piece: {fileID: 3533219559922611226}
+    LocalPosition: {x: 0.00041439565, y: -0.00000020681124, z: -0.00009180301}
+    DistanceTo: {x: 8.287911, y: 0.004136221, z: 1.8360599}
+    rotation: {x: 4.656755e-10, y: 3.567903e-15, z: 3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8020755875005653404}
+    Piece: {fileID: 8369797917304776177}
+    LocalPosition: {x: 0.00014619165, y: 0.0002841052, z: 0.00020784719}
+    DistanceTo: {x: 2.9238327, y: -5.6820984, z: -4.156943}
+    rotation: {x: 4.656755e-10, y: 3.567903e-15, z: 3.5433703e-15, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000013660377, y: 0.000002299283, z: 0.000003737809}
+  KDTree: {fileID: 1318576773036528993}
+  Collider: {fileID: 6761196647457453704}
+  organGroup: {fileID: 0}
+--- !u!114 &1318576773036528993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7339459082386930699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8806138144391709770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3942337658996201967}
+  - component: {fileID: 8250604412200766705}
+  - component: {fileID: 5380207155594260284}
+  - component: {fileID: 8467005710351272528}
+  - component: {fileID: 4948445869675913962}
+  - component: {fileID: 2268980534535943155}
+  - component: {fileID: 7821509966115222998}
+  m_Layer: 8
+  m_Name: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Longissimus thoracis on 2nd rib.r
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3942337658996201967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_LocalRotation: {x: 0.0000001187436, y: 0.000000020065023, z: 0.00000003261853,
+    w: 1}
+  m_LocalPosition: {x: 1.0037355, y: 7.4683294, z: 5.464813}
+  m_LocalScale: {x: -19999.998, y: 19999.984, z: 19999.994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4012800551415461536}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8250604412200766705
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Mesh: {fileID: 4300000, guid: a9563e6063417a841a8215077c386aff, type: 2}
+--- !u!23 &5380207155594260284
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b73f3debaa31bd34eb986fa86b3d847e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8467005710351272528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Skeletal system.g_LOW_80_70/Thoracic skeleton.g/Bones of thorax.g/Ribs.g/True
+    ribs.g/Second rib.r/Longissimus thoracis on 2nd rib.r
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 4948445869675913962}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: b73f3debaa31bd34eb986fa86b3d847e, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.7607843, g: 0.69411767, b: 0.6117647, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &4948445869675913962
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: a9563e6063417a841a8215077c386aff, type: 2}
+--- !u!114 &2268980534535943155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4147242863571832594}
+  ConnectedPieces:
+  - originalPiece: {fileID: 3942337658996201967}
+    Piece: {fileID: 1292109370567769029}
+    LocalPosition: {x: 0.00005018679, y: -0.00037341684, z: -0.00027324067}
+    DistanceTo: {x: 1.0037358, y: 7.468331, z: 5.4648113}
+    rotation: {x: -4.656755e-10, y: -3.567903e-15, z: -3.5433703e-15, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3942337658996201967}
+    Piece: {fileID: 3305072466267976804}
+    LocalPosition: {x: 0.0000020857833, y: -0.000022521557, z: 0.000016162503}
+    DistanceTo: {x: 0.041715663, y: 0.45043078, z: -0.32324994}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3942337658996201967}
+    Piece: {fileID: 3533219559922611226}
+    LocalPosition: {x: 0.00046458238, y: -0.00037362362, z: -0.0003650437}
+    DistanceTo: {x: 9.291647, y: 7.4724665, z: 7.3008714}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3942337658996201967}
+    Piece: {fileID: 8369797917304776177}
+    LocalPosition: {x: 0.00019637843, y: -0.000089311674, z: -0.000065393455}
+    DistanceTo: {x: 3.9275684, y: 1.786232, z: 1.3078687}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.0037355, y: 7.4683294, z: 5.464813}
+  LocalRotationOnParent: {x: 0.000013607015, y: 0.0000022992826, z: 0.0000037378086}
+  KDTree: {fileID: 7821509966115222998}
+  Collider: {fileID: 4948445869675913962}
+  organGroup: {fileID: 0}
+--- !u!114 &7821509966115222998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8806138144391709770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

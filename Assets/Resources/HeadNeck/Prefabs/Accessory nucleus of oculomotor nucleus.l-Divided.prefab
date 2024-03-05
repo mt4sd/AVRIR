@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1383956487909397025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7505837493353654498}
+  - component: {fileID: 634468944208475078}
+  - component: {fileID: 1169195226235771392}
+  - component: {fileID: 7843812088534127063}
+  - component: {fileID: 1953540301879102068}
+  - component: {fileID: 6414560843498588295}
+  - component: {fileID: 850274777172744448}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Central nervous system.g/Brain.g/Brainstem.g/Midbrain.g/Cerebral
+    peduncle.g/Tegmentum of midbrain.g/Grey matter of tegmentum of midbrain.g/Oculomotor
+    complex.g/Accessory nucleus of oculomotor nucleus.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7505837493353654498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_LocalRotation: {x: 0.00000007549786, y: -1, z: 0.00000020861623, w: 0.0000003695528}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: -19999.992, y: 19999.99, z: 82825.68}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1360475170225542107}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &634468944208475078
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Mesh: {fileID: 4300000, guid: 5a06d6a17c377314ebb6f4c211be1969, type: 2}
+--- !u!23 &1169195226235771392
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 018dc5acb825b984cbe13e6c83a5774a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7843812088534127063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Central nervous system.g/Brain.g/Brainstem.g/Midbrain.g/Cerebral
+    peduncle.g/Tegmentum of midbrain.g/Grey matter of tegmentum of midbrain.g/Oculomotor
+    complex.g/Accessory nucleus of oculomotor nucleus.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 1953540301879102068}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 018dc5acb825b984cbe13e6c83a5774a, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 2088
+    Name: Right hypothalamus
+    NameSource: Hypothalamus.r
+    Path: 
+    Color: '#FFFFFF'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &1953540301879102068
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 5a06d6a17c377314ebb6f4c211be1969, type: 2}
+--- !u!114 &6414560843498588295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 4926469254817772131}
+  ConnectedPieces: []
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000023905663, y: 180.00003, z: -0.000008651408}
+  KDTree: {fileID: 850274777172744448}
+  Collider: {fileID: 1953540301879102068}
+  organGroup: {fileID: 0}
+--- !u!114 &850274777172744448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383956487909397025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2309627661812165683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1360475170225542107}
+  - component: {fileID: 4926469254817772131}
+  m_Layer: 0
+  m_Name: Accessory nucleus of oculomotor nucleus.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1360475170225542107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2309627661812165683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.14953625, y: 1.8813171, z: 146.75986}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7505837493353654498}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4926469254817772131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2309627661812165683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 6414560843498588295}
+  MaxDistanceConnectedPieces: 0.05

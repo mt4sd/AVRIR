@@ -1,0 +1,7 @@
+newmtl SabanaMaterial2
+bump loose-tablecloth_normal-ogl.png
+disp loose-tablecloth_height.png
+map_Kd loose-tablecloth_albedo.png
+Kd 1 1 1
+d 1
+

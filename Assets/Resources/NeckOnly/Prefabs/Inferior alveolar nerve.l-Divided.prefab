@@ -1,0 +1,718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1160966774872975615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7988764476679380939}
+  - component: {fileID: 7960943712688782144}
+  m_Layer: 0
+  m_Name: Inferior alveolar nerve.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7988764476679380939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160966774872975615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.610984, y: -6.993408, z: 131.98126}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5357207933900388747}
+  - {fileID: 7687040045333477172}
+  - {fileID: 3677112698141952828}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7960943712688782144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160966774872975615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 6717099718000914099}
+  - {fileID: 7483496770406953059}
+  - {fileID: 8462631201584880498}
+  MaxDistanceConnectedPieces: 0.05
+--- !u!1 &2924211116478723731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7687040045333477172}
+  - component: {fileID: 234931532242749678}
+  - component: {fileID: 6459918018631796065}
+  - component: {fileID: 3225311463391788990}
+  - component: {fileID: 7625083638106667005}
+  - component: {fileID: 7483496770406953059}
+  - component: {fileID: 3584714743363894404}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l/Mental nerve.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7687040045333477172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0.00000011920928}
+  m_LocalPosition: {x: -2.4748526, y: -6.8637543, z: -5.004875}
+  m_LocalScale: {x: 20000, y: -19999.988, z: -19999.988}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7988764476679380939}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &234931532242749678
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Mesh: {fileID: 4300000, guid: 9aae34d182d22114e86fc24ecff19760, type: 2}
+--- !u!23 &6459918018631796065
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3225311463391788990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l/Mental nerve.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 7625083638106667005}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 398
+    Name: Left depressor labii inferioris
+    NameSource: Depressor labii inferioris.l
+    Path: 
+    Color: '#FFACA2'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1522
+    Name: Left inferior labial veins
+    NameSource: Inferior labial veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 90
+    Name: Left buccal region
+    NameSource: Buccal region.l
+    Path: 
+    Color: '#B69C8D'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &7625083638106667005
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9aae34d182d22114e86fc24ecff19760, type: 2}
+--- !u!114 &7483496770406953059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 7960943712688782144}
+  ConnectedPieces:
+  - originalPiece: {fileID: 7687040045333477172}
+    Piece: {fileID: 6717099718000914099}
+    LocalPosition: {x: 0.00012374262, y: 0.00034318786, z: 0.000250244}
+    DistanceTo: {x: -2.4748526, y: 6.863753, z: 5.0048842}
+    rotation: {x: -7.1054274e-15, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 7687040045333477172}
+    Piece: {fileID: 8462631201584880498}
+    LocalPosition: {x: 0.000014177942, y: 0.00030450776, z: 0.00007344257}
+    DistanceTo: {x: -0.28355885, y: 6.0901513, z: 1.4688582}
+    rotation: {x: -7.1054274e-15, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -2.4748526, y: -6.8637543, z: -5.004875}
+  LocalRotationOnParent: {x: 0.000013660378, y: 180, z: 180}
+  KDTree: {fileID: 3584714743363894404}
+  Collider: {fileID: 7625083638106667005}
+  organGroup: {fileID: 0}
+--- !u!114 &3584714743363894404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2924211116478723731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3594597855933386051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3677112698141952828}
+  - component: {fileID: 7930292219242964502}
+  - component: {fileID: 5465179343090878532}
+  - component: {fileID: 4348914646422488735}
+  - component: {fileID: 6408233113948930913}
+  - component: {fileID: 8462631201584880498}
+  - component: {fileID: 551847151834569936}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l/Nerve to mylohyoid muscle.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3677112698141952828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0.000000119209275}
+  m_LocalPosition: {x: -2.1912937, y: -0.7736025, z: -3.536026}
+  m_LocalScale: {x: 20000, y: -19999.988, z: -19999.988}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7988764476679380939}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7930292219242964502
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Mesh: {fileID: 4300000, guid: 0008269a49e7c3143819e21169d7c21a, type: 2}
+--- !u!23 &5465179343090878532
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4348914646422488735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l/Nerve to mylohyoid muscle.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 6408233113948930913}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 846
+    Name: Gingiva
+    NameSource: Gingiva
+    Path: 
+    Color: '#C08394'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &6408233113948930913
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 0008269a49e7c3143819e21169d7c21a, type: 2}
+--- !u!114 &8462631201584880498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 7960943712688782144}
+  ConnectedPieces:
+  - originalPiece: {fileID: 3677112698141952828}
+    Piece: {fileID: 6717099718000914099}
+    LocalPosition: {x: 0.00010956468, y: 0.000038680104, z: 0.0001768014}
+    DistanceTo: {x: -2.1912937, y: 0.77360165, z: 3.5360262}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3677112698141952828}
+    Piece: {fileID: 7483496770406953059}
+    LocalPosition: {x: -0.000014177942, y: -0.00030450776, z: -0.000073442956}
+    DistanceTo: {x: 0.28355885, y: -6.0901513, z: -1.4688582}
+    rotation: {x: 7.1054274e-15, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -2.1912937, y: -0.7736025, z: -3.536026}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 551847151834569936}
+  Collider: {fileID: 6408233113948930913}
+  organGroup: {fileID: 0}
+--- !u!114 &551847151834569936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3594597855933386051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4015897174343324040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5357207933900388747}
+  - component: {fileID: 2159098290667773075}
+  - component: {fileID: 3869131510863825024}
+  - component: {fileID: 2797496461008664376}
+  - component: {fileID: 1768380785157966957}
+  - component: {fileID: 6717099718000914099}
+  - component: {fileID: 1798051024220821110}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5357207933900388747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0.000000119209275}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20000, y: -19999.99, z: -19999.99}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7988764476679380939}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2159098290667773075
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Mesh: {fileID: 4300000, guid: 2a6dcce1c81c7954f827b594c80470f1, type: 2}
+--- !u!23 &3869131510863825024
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2797496461008664376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Cranial
+    nerves.g/Trigeminal nerve (V).r/Mandibular nerve.g/Posterior division of mandibular
+    nerve.l/Inferior alveolar nerve.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 1768380785157966957}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 96
+    Name: Left mental region
+    NameSource: Mental region.l
+    Path: 
+    Color: '#B69C8D'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 3202
+    Name: Left mentalis muscle- insertion
+    NameSource: Mentalis muscle- Insertion.l
+    Path: 
+    Color: '#B3997F'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 3235
+    Name: Left lower first molar tooth
+    NameSource: Lower first molar tooth.l
+    Path: 
+    Color: '#CCCCCC'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 3187
+    Name: Mandible
+    NameSource: Mandible
+    Path: 
+    Color: '#CCCCCC'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 412
+    Name: Left orbicularis oris muscle
+    NameSource: Orbicularis oris muscle.l
+    Path: 
+    Color: '#C69577'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 2299
+    Name: Left inferior alveolar nerve
+    NameSource: Inferior alveolar nerve.l
+    Path: 
+    Color: '#DAC9A3'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 2797496461008664376}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &1768380785157966957
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2a6dcce1c81c7954f827b594c80470f1, type: 2}
+--- !u!114 &6717099718000914099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 7960943712688782144}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5357207933900388747}
+    Piece: {fileID: 7483496770406953059}
+    LocalPosition: {x: -0.00012374262, y: -0.0003431878, z: -0.00025024434}
+    DistanceTo: {x: 2.4748526, y: -6.863753, z: -5.0048842}
+    rotation: {x: 7.1054274e-15, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5357207933900388747}
+    Piece: {fileID: 8462631201584880498}
+    LocalPosition: {x: -0.00010956468, y: -0.0000386801, z: -0.00017680138}
+    DistanceTo: {x: 2.1912937, y: -0.77360165, z: -3.5360262}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 1798051024220821110}
+  Collider: {fileID: 1768380785157966957}
+  organGroup: {fileID: 0}
+--- !u!114 &1798051024220821110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015897174343324040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

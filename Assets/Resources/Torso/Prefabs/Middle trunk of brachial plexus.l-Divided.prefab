@@ -1,0 +1,643 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2231070371162001300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553010587285348785}
+  - component: {fileID: 5810619545429683231}
+  m_Layer: 0
+  m_Name: Middle trunk of brachial plexus.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &553010587285348785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231070371162001300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 19.571285, y: -0.36782837, z: 84.389435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8963019421806749418}
+  - {fileID: 6600142202829211654}
+  - {fileID: 5965099710746479702}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5810619545429683231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231070371162001300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 2939773321084459348}
+  - {fileID: 7160314734645451851}
+  - {fileID: 8771404956899408460}
+  MaxDistanceConnectedPieces: 0.05
+--- !u!1 &2920646230427497740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8963019421806749418}
+  - component: {fileID: 7391741011364067842}
+  - component: {fileID: 205162325066957835}
+  - component: {fileID: 8166514771944548200}
+  - component: {fileID: 518324839280095680}
+  - component: {fileID: 2939773321084459348}
+  - component: {fileID: 574395272958937979}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8963019421806749418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_LocalRotation: {x: -1, y: -2.1184055e-15, z: -7.930187e-15, w: -0.000000119209275}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20000.004, y: -20000, z: -20000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553010587285348785}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7391741011364067842
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Mesh: {fileID: 4300000, guid: 426ae48407b23b242be6aa1c2a55e623, type: 2}
+--- !u!23 &205162325066957835
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8166514771944548200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 518324839280095680}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &518324839280095680
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 426ae48407b23b242be6aa1c2a55e623, type: 2}
+--- !u!114 &2939773321084459348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 5810619545429683231}
+  ConnectedPieces:
+  - originalPiece: {fileID: 8963019421806749418}
+    Piece: {fileID: 7160314734645451851}
+    LocalPosition: {x: -0.0000022450442, y: 0.00020591117, z: 0.0011208389}
+    DistanceTo: {x: 0.044900894, y: 4.118224, z: 22.41678}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8963019421806749418}
+    Piece: {fileID: 8771404956899408460}
+    LocalPosition: {x: -0.000054846274, y: 0.00026660497, z: 0.0011241627}
+    DistanceTo: {x: 1.0969257, y: 5.3321, z: 22.483255}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 574395272958937979}
+  Collider: {fileID: 518324839280095680}
+  organGroup: {fileID: 0}
+--- !u!114 &574395272958937979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920646230427497740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6054556062624373508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6600142202829211654}
+  - component: {fileID: 3351945498782261124}
+  - component: {fileID: 7003247468247863151}
+  - component: {fileID: 4114601754319611430}
+  - component: {fileID: 3746220473188246667}
+  - component: {fileID: 7160314734645451851}
+  - component: {fileID: 3770584266855968340}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l/Anterior division of middle trunk of brachial plexus.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6600142202829211654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_LocalRotation: {x: -1, y: -2.1184055e-15, z: -7.930187e-15, w: -0.000000119209275}
+  m_LocalPosition: {x: -0.044900894, y: 4.1182294, z: 22.416779}
+  m_LocalScale: {x: 20000.004, y: -20000, z: -20000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553010587285348785}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3351945498782261124
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Mesh: {fileID: 4300000, guid: 63d402a8e970b89498108db84a94338b, type: 2}
+--- !u!23 &7003247468247863151
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4114601754319611430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l/Anterior division of middle trunk of brachial plexus.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 3746220473188246667}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 767
+    Name: Left clavicular part of deltoid muscle
+    NameSource: Clavicular part of deltoid muscle.l
+    Path: 
+    Color: '#B98464'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 2409
+    Name: Left anterior division of middle trunk of brachial plexus
+    NameSource: Anterior division of middle trunk of brachial plexus.l
+    Path: 
+    Color: '#DAC9A3'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4114601754319611430}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &3746220473188246667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63d402a8e970b89498108db84a94338b, type: 2}
+--- !u!114 &7160314734645451851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 5810619545429683231}
+  ConnectedPieces:
+  - originalPiece: {fileID: 6600142202829211654}
+    Piece: {fileID: 2939773321084459348}
+    LocalPosition: {x: 0.0000022450442, y: -0.00020591117, z: -0.0011208389}
+    DistanceTo: {x: -0.044900894, y: -4.118224, z: -22.41678}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 6600142202829211654}
+    Piece: {fileID: 8771404956899408460}
+    LocalPosition: {x: -0.00005260123, y: 0.000060693787, z: 0.0000033237598}
+    DistanceTo: {x: 1.0520248, y: 1.2138758, z: 0.066475205}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -0.044900894, y: 4.1182294, z: 22.416779}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 3770584266855968340}
+  Collider: {fileID: 3746220473188246667}
+  organGroup: {fileID: 0}
+--- !u!114 &3770584266855968340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054556062624373508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6524387362129245026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5965099710746479702}
+  - component: {fileID: 2081330257244518346}
+  - component: {fileID: 7158620966758699286}
+  - component: {fileID: 6037682836632534937}
+  - component: {fileID: 2356832379843550190}
+  - component: {fileID: 8771404956899408460}
+  - component: {fileID: 6061350589247829689}
+  m_Layer: 8
+  m_Name: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l/Posterior division of middle trunk of brachial plexus.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5965099710746479702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_LocalRotation: {x: -1, y: -2.1184055e-15, z: -7.930187e-15, w: -0.000000119209275}
+  m_LocalPosition: {x: -1.0969257, y: 5.332105, z: 22.483253}
+  m_LocalScale: {x: 20000.004, y: -20000, z: -20000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 553010587285348785}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2081330257244518346
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Mesh: {fileID: 4300000, guid: 29ea259ffd38b8042905b7597d28a11e, type: 2}
+--- !u!23 &7158620966758699286
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6037682836632534937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Nervous system & Sense organs.g_LOW_80/Peripheral nervous system.g/Spinal
+    nerves.g/Brachial plexus.g/Supraclavicular part of brachial plexus.g/Middle trunk
+    of brachial plexus.l/Posterior division of middle trunk of brachial plexus.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 2356832379843550190}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: bf3106b7bb3bbef4399f3bd2655a1839, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.854902, g: 0.78823537, b: 0.6392157, a: 1}
+  DividedPrefab: {fileID: 0}
+  DividedPrefabRelativePath: 
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 2403
+    Name: Left anterior division of inferior trunk of brachial plexus
+    NameSource: Anterior division of inferior trunk of brachial plexus.l
+    Path: 
+    Color: '#DAC9A3'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 2410
+    Name: Left posterior division of middle trunk of brachial plexus
+    NameSource: Posterior division of middle trunk of brachial plexus.l
+    Path: 
+    Color: '#DAC9A3'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 6037682836632534937}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &2356832379843550190
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 29ea259ffd38b8042905b7597d28a11e, type: 2}
+--- !u!114 &8771404956899408460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 5810619545429683231}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5965099710746479702}
+    Piece: {fileID: 2939773321084459348}
+    LocalPosition: {x: 0.000054846274, y: -0.00026660497, z: -0.0011241627}
+    DistanceTo: {x: -1.0969257, y: -5.3321, z: -22.483255}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5965099710746479702}
+    Piece: {fileID: 7160314734645451851}
+    LocalPosition: {x: 0.00005260123, y: -0.000060693787, z: -0.0000033237598}
+    DistanceTo: {x: -1.0520248, y: -1.2138758, z: -0.066475205}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -1.0969257, y: 5.332105, z: 22.483253}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 6061350589247829689}
+  Collider: {fileID: 2356832379843550190}
+  organGroup: {fileID: 0}
+--- !u!114 &6061350589247829689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524387362129245026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

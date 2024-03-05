@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3da33e8ba94c49abd87948e9856fb, type: 3}
+  m_Name: Challenge_2-Interactions
+  m_EditorClassIdentifier: 
+  Name: Interactions
+  Icon: {fileID: 1091593321, guid: e29ab478c8e949c40948e38ff3267768, type: 3}
+  VRScreensImage: {fileID: 21300000, guid: 4adcfa0d2ba941f4aa3b447c4313f886, type: 3}
+  Description: "1. Coge y acerca todos los huesos coloreados del color de tus guantes.\r\n\r\n2.
+    Cuando el docente avise, dale los huesos, uno a uno, a un compa\xF1ero del color
+    que diga.\r\n\r\n3. Al coger el \xF3rgano, se volver\xE1 del color del receptor.
+    \xC9ste tendr\xE1 que colocarlo en su posici\xF3n correcta. "
+  isActived: 0
+  IsFinished: 0
+  challengeID: 2
+  PlayersList: 

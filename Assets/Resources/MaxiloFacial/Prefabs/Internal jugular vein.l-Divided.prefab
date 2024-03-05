@@ -1,0 +1,3571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &221539659268565657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4926179937121952550}
+  - component: {fileID: 1751566291406694449}
+  - component: {fileID: 3017173576449107759}
+  - component: {fileID: 4599223719738247153}
+  - component: {fileID: 3006244622586102089}
+  - component: {fileID: 6309887359483617043}
+  - component: {fileID: 2409586233614379655}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Submental vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4926179937121952550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -2.3923874, y: -10.775431, z: 2.3609085}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1751566291406694449
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Mesh: {fileID: 4300000, guid: 8a1d8f54181bf3f46880d7d7f23e0937, type: 2}
+--- !u!23 &3017173576449107759
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4599223719738247153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Submental vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 3006244622586102089}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &3006244622586102089
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8a1d8f54181bf3f46880d7d7f23e0937, type: 2}
+--- !u!114 &6309887359483617043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: -0.00011961937, y: 0.00053877156, z: -0.00011804535}
+    DistanceTo: {x: -2.3923874, y: -10.775431, z: 2.3609068}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.00020088548, y: 0.00058343034, z: 0.0003274419}
+    DistanceTo: {x: -4.0177097, y: -11.668607, z: -6.5488377}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.00020403738, y: 0.0005242584, z: 0.00035571336}
+    DistanceTo: {x: -4.0807476, y: -10.4851675, z: -7.114267}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: -0.00017391553, y: 0.00023682846, z: 0.00046673094}
+    DistanceTo: {x: -3.4783106, y: -4.736569, z: -9.334619}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00028336086, y: 0.00054155453, z: 0.0005285619}
+    DistanceTo: {x: -5.6672173, y: -10.83109, z: -10.571238}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.0005822979, y: 0.0006622691, z: 0.0014387548}
+    DistanceTo: {x: -11.645959, y: -13.245382, z: -28.775095}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.00019045571, y: 0.0001999685, z: 0.00025439495}
+    DistanceTo: {x: -3.8091145, y: -3.9993699, z: -5.0878987}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: -0.000023595881, y: -0.00017097495, z: 0.00076125754}
+    DistanceTo: {x: -0.47191763, y: 3.419499, z: -15.22515}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: -0.000055426503, y: -0.000031539836, z: 0.00007412796}
+    DistanceTo: {x: -1.10853, y: 0.6307967, z: -1.4825591}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: -0.000047660542, y: -0.00019181974, z: 0.00039187813}
+    DistanceTo: {x: -0.95321083, y: 3.8363945, z: -7.837562}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: -0.00011328928, y: 0.00033211213, z: 0.00035630615}
+    DistanceTo: {x: -2.2657857, y: -6.6422424, z: -7.1261225}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4926179937121952550}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.0002123956, y: 0.0005240009, z: -0.00012806732}
+    DistanceTo: {x: -4.247912, y: -10.480018, z: 2.5613463}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -2.3923874, y: -10.775431, z: 2.3609085}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 2409586233614379655}
+  Collider: {fileID: 3006244622586102089}
+  organGroup: {fileID: 0}
+--- !u!114 &2409586233614379655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221539659268565657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1276446936011651735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5652510459159946594}
+  - component: {fileID: 5815485394282484004}
+  - component: {fileID: 4764019374907247861}
+  - component: {fileID: 479499387206275303}
+  - component: {fileID: 6870023744229367369}
+  - component: {fileID: 8351494432007333059}
+  - component: {fileID: 8436097753749174984}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Retromandibular vein.l/Superficial
+    temporal veins.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5652510459159946594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 9.2535715, y: 2.4699566, z: 31.136002}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5815485394282484004
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Mesh: {fileID: 4300000, guid: f4a2bb4eb99b9c342ad4d1dd6217c42e, type: 2}
+--- !u!23 &4764019374907247861
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &479499387206275303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Retromandibular vein.l/Superficial
+    temporal veins.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 6870023744229367369}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 4
+    Name: Hair
+    NameSource: Hair
+    Path: 
+    Color: '#070707'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1519
+    Name: Left superficial temporal veins
+    NameSource: Superficial temporal veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 479499387206275303}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1519
+    Name: Left superficial temporal veins
+    NameSource: Superficial temporal veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 479499387206275303}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1519
+    Name: Left superficial temporal veins
+    NameSource: Superficial temporal veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 479499387206275303}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1519
+    Name: Left superficial temporal veins
+    NameSource: Superficial temporal veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 479499387206275303}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1519
+    Name: Left superficial temporal veins
+    NameSource: Superficial temporal veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 479499387206275303}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &6870023744229367369
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f4a2bb4eb99b9c342ad4d1dd6217c42e, type: 2}
+--- !u!114 &8351494432007333059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00046267855, y: -0.0001234976, z: -0.0015568001}
+    DistanceTo: {x: 9.2535715, y: 2.4699519, z: 31.136002}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: 0.00038141245, y: -0.00007883882, z: -0.0011113129}
+    DistanceTo: {x: 7.628249, y: 1.5767763, z: 22.226257}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: 0.00037826056, y: -0.0001380108, z: -0.0010830414}
+    DistanceTo: {x: 7.5652113, y: 2.760216, z: 21.660828}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.00040838242, y: -0.00042544072, z: -0.00097202393}
+    DistanceTo: {x: 8.167648, y: 8.508814, z: 19.440477}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: 0.00029893708, y: -0.000120714634, z: -0.0009101929}
+    DistanceTo: {x: 5.9787416, y: 2.4142926, z: 18.203857}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.00039184222, y: -0.00046230067, z: -0.0011843599}
+    DistanceTo: {x: 7.8368444, y: 9.246013, z: 23.687197}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.0005587021, y: -0.0008332442, z: -0.0006774973}
+    DistanceTo: {x: 11.174042, y: 16.664883, z: 13.549945}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.0005268714, y: -0.000693809, z: -0.0013646268}
+    DistanceTo: {x: 10.537429, y: 13.87618, z: 27.292536}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.0005822979, y: -0.0006622691, z: -0.0014387548}
+    DistanceTo: {x: 11.645959, y: 13.245382, z: 28.775095}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00053463737, y: -0.0008540889, z: -0.0010468767}
+    DistanceTo: {x: 10.692748, y: 17.081778, z: 20.937532}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.00046900864, y: -0.00033015703, z: -0.0010824488}
+    DistanceTo: {x: 9.380173, y: 6.6031404, z: 21.648973}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5652510459159946594}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: 0.00036990235, y: -0.00013826824, z: -0.0015668222}
+    DistanceTo: {x: 7.398047, y: 2.7653646, z: 31.336441}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 9.2535715, y: 2.4699566, z: 31.136002}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 8436097753749174984}
+  Collider: {fileID: 6870023744229367369}
+  organGroup: {fileID: 0}
+--- !u!114 &8436097753749174984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276446936011651735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2074565042089891872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3388099739815334389}
+  - component: {fileID: 7017229391372015591}
+  - component: {fileID: 6067109883068645825}
+  - component: {fileID: 4694139137805622912}
+  - component: {fileID: 1907548506862316613}
+  - component: {fileID: 4714467868621110463}
+  - component: {fileID: 812950108327952440}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Maxillary veins.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3388099739815334389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 1.0859232, y: -6.0388603, z: 11.695526}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7017229391372015591
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Mesh: {fileID: 4300000, guid: 18cf958dee98a5b43bb230cf45a22716, type: 2}
+--- !u!23 &6067109883068645825
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4694139137805622912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Maxillary veins.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 1907548506862316613}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1517
+    Name: Left maxillary veins
+    NameSource: Maxillary veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4694139137805622912}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &1907548506862316613
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 18cf958dee98a5b43bb230cf45a22716, type: 2}
+--- !u!114 &4714467868621110463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.000054296157, y: 0.00030194313, z: -0.0005847763}
+    DistanceTo: {x: 1.0859232, y: -6.038862, z: 11.695525}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.000026969956, y: 0.0003466019, z: -0.00013928906}
+    DistanceTo: {x: -0.53939915, y: -6.932038, z: 2.785781}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.00003012185, y: 0.00028742992, z: -0.000111017565}
+    DistanceTo: {x: -0.602437, y: -5.748598, z: 2.2203512}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00010944533, y: 0.0003047261, z: 0.00006183095}
+    DistanceTo: {x: -2.1889067, y: -6.0945215, z: -1.236619}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00040838242, y: 0.00042544072, z: 0.00097202393}
+    DistanceTo: {x: -8.167648, y: -8.508814, z: -19.440477}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.000016540193, y: -0.000036859958, z: -0.00021233597}
+    DistanceTo: {x: -0.33080387, y: 0.7371991, z: 4.2467194}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.00015031964, y: -0.00040780343, z: 0.0002945266}
+    DistanceTo: {x: 3.006393, y: 8.156068, z: -5.890532}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00011848902, y: -0.0002683683, z: -0.000392603}
+    DistanceTo: {x: 2.3697805, y: 5.367366, z: 7.8520594}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00017391553, y: -0.00023682846, z: -0.00046673094}
+    DistanceTo: {x: 3.4783106, y: 4.736569, z: 9.334619}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00012625498, y: -0.0004286482, z: -0.00007485282}
+    DistanceTo: {x: 2.5250998, y: 8.572964, z: 1.4970564}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.000060626244, y: 0.00009528367, z: -0.0001104248}
+    DistanceTo: {x: 1.2125249, y: -1.9056734, z: 2.2084959}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3388099739815334389}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.000038480066, y: 0.00028717247, z: -0.00059479824}
+    DistanceTo: {x: -0.76960135, y: -5.743449, z: 11.895965}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.0859232, y: -6.0388603, z: 11.695526}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 812950108327952440}
+  Collider: {fileID: 1907548506862316613}
+  organGroup: {fileID: 0}
+--- !u!114 &812950108327952440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074565042089891872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3139527165970529963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4956763905454144121}
+  - component: {fileID: 2998280171208986000}
+  - component: {fileID: 1546094991588893777}
+  - component: {fileID: 4882026918676974264}
+  - component: {fileID: 8992697852305854697}
+  - component: {fileID: 7176206241620418638}
+  - component: {fileID: 2716479849564987584}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Inferior labial veins.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4956763905454144121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -1.2838573, y: -11.406227, z: 3.8434677}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2998280171208986000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Mesh: {fileID: 4300000, guid: 1d78e58d25c8663498eb542fb7c52978, type: 2}
+--- !u!23 &1546094991588893777
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4882026918676974264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Inferior labial veins.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 8992697852305854697}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 90
+    Name: Left buccal region
+    NameSource: Buccal region.l
+    Path: 
+    Color: '#B69C8D'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 398
+    Name: Left depressor labii inferioris
+    NameSource: Depressor labii inferioris.l
+    Path: 
+    Color: '#FFACA2'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1522
+    Name: Left inferior labial veins
+    NameSource: Inferior labial veins.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 4882026918676974264}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &8992697852305854697
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1d78e58d25c8663498eb542fb7c52978, type: 2}
+--- !u!114 &7176206241620418638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: -0.000064192864, y: 0.00057031144, z: -0.0001921733}
+    DistanceTo: {x: -1.2838573, y: -11.406228, z: 3.843466}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.00014545898, y: 0.00061497017, z: 0.00025331395}
+    DistanceTo: {x: -2.9091797, y: -12.299403, z: -5.0662785}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.00014861088, y: 0.00055579824, z: 0.0002815854}
+    DistanceTo: {x: -2.9722176, y: -11.115964, z: -5.631708}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: -0.00011848902, y: 0.0002683683, z: 0.000392603}
+    DistanceTo: {x: -2.3697805, y: -5.367366, z: -7.8520594}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00022793436, y: 0.0005730944, z: 0.00045443393}
+    DistanceTo: {x: -4.558687, y: -11.461887, z: -9.088678}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.0005268714, y: 0.000693809, z: 0.0013646268}
+    DistanceTo: {x: -10.537429, y: -13.87618, z: -27.292536}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.00013502922, y: 0.00023150834, z: 0.000180267}
+    DistanceTo: {x: -2.7005844, y: -4.6301665, z: -3.6053398}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.00003183062, y: -0.00013943511, z: 0.0006871296}
+    DistanceTo: {x: 0.6366124, y: 2.7887022, z: -13.742592}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.000055426503, y: 0.000031539836, z: -0.00007412796}
+    DistanceTo: {x: 1.10853, y: -0.6307967, z: 1.4825591}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.000007765961, y: -0.0001602799, z: 0.00031775015}
+    DistanceTo: {x: 0.15531921, y: 3.2055979, z: -6.355003}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: -0.00005786278, y: 0.00036365195, z: 0.00028217817}
+    DistanceTo: {x: -1.1572556, y: -7.273039, z: -5.6435633}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4956763905454144121}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.0001569691, y: 0.0005555408, z: -0.00020219527}
+    DistanceTo: {x: -3.139382, y: -11.110815, z: 4.0439053}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -1.2838573, y: -11.406227, z: 3.8434677}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 2716479849564987584}
+  Collider: {fileID: 8992697852305854697}
+  organGroup: {fileID: 0}
+--- !u!114 &2716479849564987584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3139527165970529963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3362228600399361331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5285415247846573107}
+  - component: {fileID: 4923314694902188789}
+  - component: {fileID: 6218927365435286043}
+  - component: {fileID: 698785842603587940}
+  - component: {fileID: 2600360043872567821}
+  - component: {fileID: 2502709819030145592}
+  - component: {fileID: 2089975711022225617}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5285415247846573107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 1.4167271, y: -6.77606, z: 7.448807}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4923314694902188789
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Mesh: {fileID: 4300000, guid: 78daf2e7a26e34349a31de954a628c08, type: 2}
+--- !u!23 &6218927365435286043
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &698785842603587940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 2600360043872567821}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 1520
+    Name: Left facial vein
+    NameSource: Facial vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 698785842603587940}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &2600360043872567821
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 78daf2e7a26e34349a31de954a628c08, type: 2}
+--- !u!114 &2502709819030145592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00007083635, y: 0.00033880307, z: -0.00037244032}
+    DistanceTo: {x: 1.4167271, y: -6.776061, z: 7.448806}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.000010429763, y: 0.00038346188, z: 0.00007304694}
+    DistanceTo: {x: -0.20859528, y: -7.669237, z: -1.4609387}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.000013581657, y: 0.00032428987, z: 0.00010131841}
+    DistanceTo: {x: -0.27163315, y: -6.485797, z: -2.0263681}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.000016540193, y: 0.000036859958, z: 0.00021233597}
+    DistanceTo: {x: 0.33080387, y: -0.7371991, z: -4.2467194}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00009290514, y: 0.00034158604, z: 0.00027416693}
+    DistanceTo: {x: -1.8581028, y: -6.8317204, z: -5.4833384}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00039184222, y: 0.00046230067, z: 0.0011843599}
+    DistanceTo: {x: -7.8368444, y: -9.246013, z: -23.687197}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.00016685984, y: -0.00037094345, z: 0.0005068626}
+    DistanceTo: {x: 3.3371968, y: 7.4188685, z: -10.137252}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00013502922, y: -0.00023150834, z: -0.000180267}
+    DistanceTo: {x: 2.7005844, y: 4.6301665, z: 3.6053398}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00019045571, y: -0.0001999685, z: -0.00025439495}
+    DistanceTo: {x: 3.8091145, y: 3.9993699, z: 5.0878987}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00014279518, y: -0.00039178823, z: 0.00013748316}
+    DistanceTo: {x: 2.8559036, y: 7.8357644, z: -2.749663}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.000077166434, y: 0.00013214363, z: 0.000101911195}
+    DistanceTo: {x: 1.5433288, y: -2.6428726, z: -2.0382237}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5285415247846573107}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.000021939873, y: 0.00032403241, z: -0.00038246228}
+    DistanceTo: {x: -0.43879747, y: -6.480648, z: 7.6492453}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.4167271, y: -6.77606, z: 7.448807}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 2089975711022225617}
+  Collider: {fileID: 2600360043872567821}
+  organGroup: {fileID: 0}
+--- !u!114 &2089975711022225617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3362228600399361331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3561387133938933749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8105021519178825623}
+  - component: {fileID: 8538934959954632968}
+  m_Layer: 0
+  m_Name: Internal jugular vein.l-Divided
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8105021519178825623
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561387133938933749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.6557264, y: -1.3679504, z: 123.11206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5723688111228654087}
+  - {fileID: 3881789623646756196}
+  - {fileID: 5949067075605282578}
+  - {fileID: 3388099739815334389}
+  - {fileID: 8411045562144921295}
+  - {fileID: 5652510459159946594}
+  - {fileID: 5285415247846573107}
+  - {fileID: 543985630141930044}
+  - {fileID: 4956763905454144121}
+  - {fileID: 4926179937121952550}
+  - {fileID: 8893857660898892819}
+  - {fileID: 8105206393842547110}
+  - {fileID: 4831384728745369591}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8538934959954632968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3561387133938933749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60adf342fe38caf4db595633323377bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pieces:
+  - {fileID: 7963596892580076249}
+  - {fileID: 4940324788919351221}
+  - {fileID: 703309817530426352}
+  - {fileID: 4714467868621110463}
+  - {fileID: 2965050823664722289}
+  - {fileID: 8351494432007333059}
+  - {fileID: 2502709819030145592}
+  - {fileID: 6695659230972788947}
+  - {fileID: 7176206241620418638}
+  - {fileID: 6309887359483617043}
+  - {fileID: 6406675161125068191}
+  - {fileID: 2108429891337060193}
+  - {fileID: 4728131240856279945}
+  MaxDistanceConnectedPieces: 0.05
+--- !u!1 &3882040434948323352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4831384728745369591}
+  - component: {fileID: 7579790095200631592}
+  - component: {fileID: 569727277861049885}
+  - component: {fileID: 2308669482793421307}
+  - component: {fileID: 7971152181974968733}
+  - component: {fileID: 4728131240856279945}
+  - component: {fileID: 137170267385195585}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Superior
+    thyroid vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4831384728745369591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 1.8555245, y: -0.29541278, z: -0.20043945}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7579790095200631592
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Mesh: {fileID: 4300000, guid: d36c58519b8854845a7482e2d7e231be, type: 2}
+--- !u!23 &569727277861049885
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2308669482793421307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Superior
+    thyroid vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 7971152181974968733}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 1526
+    Name: Left superior thyroid vein
+    NameSource: Superior thyroid vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 2308669482793421307}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1526
+    Name: Left superior thyroid vein
+    NameSource: Superior thyroid vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 2308669482793421307}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &7971152181974968733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d36c58519b8854845a7482e2d7e231be, type: 2}
+--- !u!114 &4728131240856279945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00009277622, y: 0.000014770638, z: 0.000010021975}
+    DistanceTo: {x: 1.8555245, y: -0.29541275, z: -0.2004395}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: 0.000011510109, y: 0.00005942942, z: 0.0004555092}
+    DistanceTo: {x: 0.2302022, y: -1.1885884, z: -9.110184}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: 0.000008358216, y: 0.00000025743097, z: 0.0004837807}
+    DistanceTo: {x: 0.16716433, y: -0.005148619, z: -9.675613}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.000038480066, y: -0.00028717247, z: 0.00059479824}
+    DistanceTo: {x: 0.76960135, y: 5.743449, z: -11.895965}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00007096527, y: 0.0000175536, z: 0.0006566292}
+    DistanceTo: {x: -1.4193053, y: -0.35107198, z: -13.132584}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00036990235, y: 0.00013826824, z: 0.0015668222}
+    DistanceTo: {x: -7.398047, y: -2.7653646, z: -31.336441}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.000021939873, y: -0.00032403241, z: 0.00038246228}
+    DistanceTo: {x: 0.43879747, y: 6.480648, z: -7.6492453}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.0001887997, y: -0.0006949759, z: 0.0008893249}
+    DistanceTo: {x: 3.7759943, y: 13.899517, z: -17.786497}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.0001569691, y: -0.0005555408, z: 0.00020219527}
+    DistanceTo: {x: 3.139382, y: 11.110815, z: -4.0439053}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.0002123956, y: -0.0005240009, z: 0.00012806732}
+    DistanceTo: {x: 4.247912, y: 10.480018, z: -2.5613463}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00016473504, y: -0.0007158207, z: 0.00051994546}
+    DistanceTo: {x: 3.294701, y: 14.316413, z: -10.398909}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 4831384728745369591}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.000099106306, y: -0.0001918888, z: 0.00048437345}
+    DistanceTo: {x: 1.9821262, y: 3.837776, z: -9.687469}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.8555245, y: -0.29541278, z: -0.20043945}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 137170267385195585}
+  Collider: {fileID: 7971152181974968733}
+  organGroup: {fileID: 0}
+--- !u!114 &137170267385195585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882040434948323352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4985489724339824369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5949067075605282578}
+  - component: {fileID: 2250194313986765814}
+  - component: {fileID: 5821008790620983683}
+  - component: {fileID: 2506960842677977974}
+  - component: {fileID: 1043714977487270584}
+  - component: {fileID: 703309817530426352}
+  - component: {fileID: 7983064912900395949}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5949067075605282578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 1.6883602, y: -0.2902627, z: 9.475174}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2250194313986765814
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Mesh: {fileID: 4300000, guid: c4da1709a60df1d4494e40f459ff5afd, type: 2}
+--- !u!23 &5821008790620983683
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2506960842677977974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 1043714977487270584}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList: []
+  m_ConnectedModelsList:
+  - ID: 3187
+    Name: Mandible
+    NameSource: Mandible
+    Path: 
+    Color: '#CCCCCC'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &1043714977487270584
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: c4da1709a60df1d4494e40f459ff5afd, type: 2}
+--- !u!114 &703309817530426352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00008441801, y: 0.000014513207, z: -0.00047375873}
+    DistanceTo: {x: 1.6883602, y: -0.29026413, z: 9.475174}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: 0.0000031518935, y: 0.000059171995, z: -0.000028271477}
+    DistanceTo: {x: 0.06303787, y: -1.1834399, z: 0.5654295}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.00003012185, y: -0.00028742992, z: 0.000111017565}
+    DistanceTo: {x: 0.602437, y: 5.748598, z: -2.2203512}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00007932348, y: 0.000017296168, z: 0.00017284852}
+    DistanceTo: {x: -1.5864697, y: -0.34592336, z: -3.4569702}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00037826056, y: 0.0001380108, z: 0.0010830414}
+    DistanceTo: {x: -7.5652113, y: -2.760216, z: -21.660828}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.000013581657, y: -0.00032428987, z: -0.00010131841}
+    DistanceTo: {x: 0.27163315, y: 6.485797, z: 2.0263681}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.0001804415, y: -0.00069523335, z: 0.0004055442}
+    DistanceTo: {x: 3.60883, y: 13.904666, z: -8.110884}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00014861088, y: -0.00055579824, z: -0.0002815854}
+    DistanceTo: {x: 2.9722176, y: 11.115964, z: 5.631708}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00020403738, y: -0.0005242584, z: -0.00035571336}
+    DistanceTo: {x: 4.0807476, y: 10.4851675, z: 7.114267}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00015637683, y: -0.00071607815, z: 0.00003616475}
+    DistanceTo: {x: 3.1275368, y: 14.321562, z: -0.723295}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.00009074809, y: -0.00019214624, z: 0.000000592775}
+    DistanceTo: {x: 1.8149619, y: 3.8429246, z: -0.011855499}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 5949067075605282578}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.000008358216, y: -0.00000025743097, z: -0.0004837807}
+    DistanceTo: {x: -0.16716433, y: 0.005148619, z: 9.675613}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.6883602, y: -0.2902627, z: 9.475174}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 7983064912900395949}
+  Collider: {fileID: 1043714977487270584}
+  organGroup: {fileID: 0}
+--- !u!114 &7983064912900395949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985489724339824369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6051089208592205271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8411045562144921295}
+  - component: {fileID: 1472381468949652546}
+  - component: {fileID: 4199993646314997264}
+  - component: {fileID: 6959445288986737786}
+  - component: {fileID: 7716872226248731987}
+  - component: {fileID: 2965050823664722289}
+  - component: {fileID: 7562313742122601648}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Retromandibular vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8411045562144921295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 3.2748299, y: 0.0556612, z: 12.932144}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1472381468949652546
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Mesh: {fileID: 4300000, guid: 46ebf0e76b0e6dd4bbf2a9303c775363, type: 2}
+--- !u!23 &4199993646314997264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6959445288986737786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Anterior division of retromandibular vein.l/Retromandibular vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 7716872226248731987}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 1958
+    Name: Right lateral temporomandibular ligament
+    NameSource: Lateral temporomandibular ligament.r
+    Path: 
+    Color: '#BFB7B2'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1518
+    Name: Left retromandibular vein
+    NameSource: Retromandibular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 6959445288986737786}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &7716872226248731987
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 46ebf0e76b0e6dd4bbf2a9303c775363, type: 2}
+--- !u!114 &2965050823664722289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00016374148, y: -0.0000027829626, z: -0.00064660725}
+    DistanceTo: {x: 3.2748299, y: 0.05565925, z: 12.932144}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: 0.00008247537, y: 0.000041875825, z: -0.00020112}
+    DistanceTo: {x: 1.6495075, y: -0.8375164, z: 4.0224}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: 0.00007932348, y: -0.000017296168, z: -0.00017284852}
+    DistanceTo: {x: 1.5864697, y: 0.34592336, z: 3.4569702}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.00010944533, y: -0.0003047261, z: -0.00006183095}
+    DistanceTo: {x: 2.1889067, y: 6.0945215, z: 1.236619}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00029893708, y: 0.000120714634, z: 0.0009101929}
+    DistanceTo: {x: -5.9787416, y: -2.4142926, z: -18.203857}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.00009290514, y: -0.00034158604, z: -0.00027416693}
+    DistanceTo: {x: 1.8581028, y: 6.8317204, z: 5.4833384}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.000259765, y: -0.0007125295, z: 0.00023269566}
+    DistanceTo: {x: 5.1952996, y: 14.250589, z: -4.653913}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00022793436, y: -0.0005730944, z: -0.00045443393}
+    DistanceTo: {x: 4.558687, y: 11.461887, z: 9.088678}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00028336086, y: -0.00054155453, z: -0.0005285619}
+    DistanceTo: {x: 5.6672173, y: 10.83109, z: 10.571238}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00023570031, y: -0.00073337427, z: -0.00013668377}
+    DistanceTo: {x: 4.7140064, y: 14.667485, z: 2.7336752}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.00017007158, y: -0.00020944241, z: -0.00017225575}
+    DistanceTo: {x: 3.4014316, y: 4.188848, z: 3.4451149}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8411045562144921295}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: 0.00007096527, y: -0.0000175536, z: -0.0006566292}
+    DistanceTo: {x: 1.4193053, y: 0.35107198, z: 13.132584}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 3.2748299, y: 0.0556612, z: 12.932144}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 7562313742122601648}
+  Collider: {fileID: 7716872226248731987}
+  organGroup: {fileID: 0}
+--- !u!114 &7562313742122601648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051089208592205271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6333800391905460433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3881789623646756196}
+  - component: {fileID: 8983725608989395547}
+  - component: {fileID: 3593996799864140393}
+  - component: {fileID: 3109925644340419977}
+  - component: {fileID: 5626028434693968156}
+  - component: {fileID: 4940324788919351221}
+  - component: {fileID: 2702355115796243125}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3881789623646756196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 1.6253223, y: 0.8931771, z: 8.909744}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8983725608989395547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Mesh: {fileID: 4300000, guid: 2e0b146f0046f1b42a0759ef24df36b1, type: 2}
+--- !u!23 &3593996799864140393
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3109925644340419977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 5626028434693968156}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &5626028434693968156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2e0b146f0046f1b42a0759ef24df36b1, type: 2}
+--- !u!114 &4940324788919351221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: 0.00008126612, y: -0.000044658787, z: -0.00044548724}
+    DistanceTo: {x: 1.6253223, y: 0.89317566, z: 8.909744}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.0000031518935, y: -0.000059171995, z: 0.000028271477}
+    DistanceTo: {x: -0.06303787, y: 1.1834399, z: -0.5654295}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.000026969956, y: -0.0003466019, z: 0.00013928906}
+    DistanceTo: {x: 0.53939915, y: 6.932038, z: -2.785781}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00008247537, y: -0.000041875825, z: 0.00020112}
+    DistanceTo: {x: -1.6495075, y: 0.8375164, z: -4.0224}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00038141245, y: 0.00007883882, z: 0.0011113129}
+    DistanceTo: {x: -7.628249, y: -1.5767763, z: -22.226257}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.000010429763, y: -0.00038346188, z: -0.00007304694}
+    DistanceTo: {x: 0.20859528, y: 7.669237, z: 1.4609387}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.0001772896, y: -0.0007544053, z: 0.0004338157}
+    DistanceTo: {x: 3.545792, y: 15.088105, z: -8.676313}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00014545898, y: -0.00061497017, z: -0.00025331395}
+    DistanceTo: {x: 2.9091797, y: 12.299403, z: 5.0662785}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00020088548, y: -0.00058343034, z: -0.0003274419}
+    DistanceTo: {x: 4.0177097, y: 11.668607, z: 6.5488377}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.00015322494, y: -0.0007752501, z: 0.00006443622}
+    DistanceTo: {x: 3.064499, y: 15.505001, z: -1.2887244}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: 0.0000875962, y: -0.00025131824, z: 0.000028864251}
+    DistanceTo: {x: 1.751924, y: 5.0263643, z: -0.577285}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 3881789623646756196}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.000011510109, y: -0.00005942942, z: -0.0004555092}
+    DistanceTo: {x: -0.2302022, y: 1.1885884, z: 9.110184}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 1.6253223, y: 0.8931771, z: 8.909744}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 2702355115796243125}
+  Collider: {fileID: 5626028434693968156}
+  organGroup: {fileID: 0}
+--- !u!114 &2702355115796243125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6333800391905460433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6742467980703936943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8105206393842547110}
+  - component: {fileID: 7898608346414148260}
+  - component: {fileID: 7561994358921426428}
+  - component: {fileID: 7164226293642461528}
+  - component: {fileID: 6866098300146220294}
+  - component: {fileID: 2108429891337060193}
+  - component: {fileID: 2875997243028769143}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Lingual
+    vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8105206393842547110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -0.1266017, y: -4.1331873, z: 9.48703}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7898608346414148260
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Mesh: {fileID: 4300000, guid: 8aadccaeec7d5a347bb7fe03371e04ca, type: 2}
+--- !u!23 &7561994358921426428
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7164226293642461528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Lingual
+    vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 6866098300146220294}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList:
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 1525
+    Name: Left lingual vein
+    NameSource: Lingual vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 7164226293642461528}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &6866098300146220294
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 8aadccaeec7d5a347bb7fe03371e04ca, type: 2}
+--- !u!114 &2108429891337060193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: -0.0000063300845, y: 0.00020665945, z: -0.0004743515}
+    DistanceTo: {x: -0.1266017, y: -4.1331887, z: 9.487029}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.0000875962, y: 0.00025131824, z: -0.000028864251}
+    DistanceTo: {x: -1.751924, y: -5.0263643, z: 0.577285}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.00009074809, y: 0.00019214624, z: -0.000000592775}
+    DistanceTo: {x: -1.8149619, y: -3.8429246, z: 0.011855499}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: -0.000060626244, y: -0.00009528367, z: 0.0001104248}
+    DistanceTo: {x: -1.2125249, y: 1.9056734, z: -2.2084959}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00017007158, y: 0.00020944241, z: 0.00017225575}
+    DistanceTo: {x: -3.4014316, y: -4.188848, z: -3.4451149}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00046900864, y: 0.00033015703, z: 0.0010824488}
+    DistanceTo: {x: -9.380173, y: -6.6031404, z: -21.648973}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.000077166434, y: -0.00013214363, z: -0.000101911195}
+    DistanceTo: {x: -1.5433288, y: 2.6428726, z: 2.0382237}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.0000896934, y: -0.00050308707, z: 0.0004049514}
+    DistanceTo: {x: 1.7938681, y: 10.061741, z: -8.099028}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: 0.00005786278, y: -0.00036365195, z: -0.00028217817}
+    DistanceTo: {x: 1.1572556, y: 7.273039, z: 5.6435633}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.00011328928, y: -0.00033211213, z: -0.00035630615}
+    DistanceTo: {x: 2.2657857, y: 6.6422424, z: 7.1261225}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: 0.000065628745, y: -0.00052393187, z: 0.000035571975}
+    DistanceTo: {x: 1.3125749, y: 10.478637, z: -0.71143943}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8105206393842547110}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.000099106306, y: 0.0001918888, z: -0.00048437345}
+    DistanceTo: {x: -1.9821262, y: -3.837776, z: 9.687469}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -0.1266017, y: -4.1331873, z: 9.48703}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 2875997243028769143}
+  Collider: {fileID: 6866098300146220294}
+  organGroup: {fileID: 0}
+--- !u!114 &2875997243028769143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742467980703936943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7513733235092191629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8893857660898892819}
+  - component: {fileID: 1835228079440946053}
+  - component: {fileID: 7870531273050342542}
+  - component: {fileID: 7652831251858062834}
+  - component: {fileID: 426572449847323109}
+  - component: {fileID: 6406675161125068191}
+  - component: {fileID: 3203183954224196543}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Superior labial vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8893857660898892819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -1.4391766, y: -14.611824, z: 10.198471}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1835228079440946053
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Mesh: {fileID: 4300000, guid: 65e69ff812765b44d809284097ed5557, type: 2}
+--- !u!23 &7870531273050342542
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7652831251858062834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Superior labial vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 426572449847323109}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &426572449847323109
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 65e69ff812765b44d809284097ed5557, type: 2}
+--- !u!114 &6406675161125068191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: -0.00007195883, y: 0.00073059136, z: -0.0005099235}
+    DistanceTo: {x: -1.4391766, y: -14.611826, z: 10.198469}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.00015322494, y: 0.0007752501, z: -0.00006443622}
+    DistanceTo: {x: -3.064499, y: -15.505001, z: 1.2887244}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.00015637683, y: 0.00071607815, z: -0.00003616475}
+    DistanceTo: {x: -3.1275368, y: -14.321562, z: 0.723295}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: -0.00012625498, y: 0.0004286482, z: 0.00007485282}
+    DistanceTo: {x: -2.5250998, y: -8.572964, z: -1.4970564}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.00023570031, y: 0.00073337427, z: 0.00013668377}
+    DistanceTo: {x: -4.7140064, y: -14.667485, z: -2.7336752}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.00053463737, y: 0.0008540889, z: 0.0010468767}
+    DistanceTo: {x: -10.692748, y: -17.081778, z: -20.937532}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.00014279518, y: 0.00039178823, z: -0.00013748316}
+    DistanceTo: {x: -2.8559036, y: -7.8357644, z: 2.749663}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: 0.000024064659, y: 0.000020844787, z: 0.00036937944}
+    DistanceTo: {x: 0.4812932, y: -0.41689572, z: -7.3875885}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: -0.000007765961, y: 0.0001602799, z: -0.00031775015}
+    DistanceTo: {x: -0.15531921, y: -3.2055979, z: 6.355003}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.000047660542, y: 0.00019181974, z: -0.00039187813}
+    DistanceTo: {x: 0.95321083, y: -3.8363945, z: 7.837562}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: -0.000065628745, y: 0.00052393187, z: -0.000035571975}
+    DistanceTo: {x: -1.3125749, y: -10.478637, z: 0.71143943}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 8893857660898892819}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.00016473504, y: 0.0007158207, z: -0.00051994546}
+    DistanceTo: {x: -3.294701, y: -14.316413, z: 10.398909}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -1.4391766, y: -14.611824, z: 10.198471}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 3203183954224196543}
+  Collider: {fileID: 426572449847323109}
+  organGroup: {fileID: 0}
+--- !u!114 &3203183954224196543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513733235092191629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &9053520509554571305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 543985630141930044}
+  - component: {fileID: 4502506487749053917}
+  - component: {fileID: 8917921335792148554}
+  - component: {fileID: 8361041130530757541}
+  - component: {fileID: 7208428835140817390}
+  - component: {fileID: 6695659230972788947}
+  - component: {fileID: 4632736390435323893}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Angular vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &543985630141930044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_LocalRotation: {x: 0.00000007549789, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: -1.9204698, y: -14.194927, z: 17.58606}
+  m_LocalScale: {x: -20000, y: 19999.998, z: 19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4502506487749053917
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Mesh: {fileID: 4300000, guid: 3a6b502786bdec3499c87c4ac6bdbec2, type: 2}
+--- !u!23 &8917921335792148554
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8361041130530757541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l/Common
+    facial vein.l/Facial vein.l/Angular vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 7208428835140817390}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList: []
+  ModelsBelowList: []
+  m_ConnectedModelsList: []
+  m_ConnectedColliders_Over: []
+  m_ConnectedColliders_Below: []
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &7208428835140817390
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 3a6b502786bdec3499c87c4ac6bdbec2, type: 2}
+--- !u!114 &6695659230972788947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 7963596892580076249}
+    LocalPosition: {x: -0.00009602348, y: 0.00070974656, z: -0.0008793029}
+    DistanceTo: {x: -1.9204698, y: -14.19493, z: 17.586058}
+    rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: -0.0001772896, y: 0.0007544053, z: -0.0004338157}
+    DistanceTo: {x: -3.545792, y: -15.088105, z: 8.676313}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: -0.0001804415, y: 0.00069523335, z: -0.0004055442}
+    DistanceTo: {x: -3.60883, y: -13.904666, z: 8.110884}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: -0.00015031964, y: 0.00040780343, z: -0.0002945266}
+    DistanceTo: {x: -3.006393, y: -8.156068, z: 5.890532}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: -0.000259765, y: 0.0007125295, z: -0.00023269566}
+    DistanceTo: {x: -5.1952996, y: -14.250589, z: 4.653913}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: -0.0005587021, y: 0.0008332442, z: 0.0006774973}
+    DistanceTo: {x: -11.174042, y: -16.664883, z: -13.549945}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: -0.00016685984, y: 0.00037094345, z: -0.0005068626}
+    DistanceTo: {x: -3.3371968, y: -7.4188685, z: 10.137252}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: -0.00003183062, y: 0.00013943511, z: -0.0006871296}
+    DistanceTo: {x: -0.6366124, y: -2.7887022, z: 13.742592}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: 0.000023595881, y: 0.00017097495, z: -0.00076125754}
+    DistanceTo: {x: 0.47191763, y: -3.419499, z: 15.22515}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: -0.000024064659, y: -0.000020844787, z: -0.00036937944}
+    DistanceTo: {x: -0.4812932, y: 0.41689572, z: 7.3875885}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: -0.0000896934, y: 0.00050308707, z: -0.0004049514}
+    DistanceTo: {x: -1.7938681, y: -10.061741, z: 8.099028}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  - originalPiece: {fileID: 543985630141930044}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: -0.0001887997, y: 0.0006949759, z: -0.0008893249}
+    DistanceTo: {x: -3.7759943, y: -13.899517, z: 17.786497}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+    IsConnected: 0
+  LocalPositionOnParent: {x: -1.9204698, y: -14.194927, z: 17.58606}
+  LocalRotationOnParent: {x: -0.000008651421, y: 0, z: 0}
+  KDTree: {fileID: 4632736390435323893}
+  Collider: {fileID: 7208428835140817390}
+  organGroup: {fileID: 0}
+--- !u!114 &4632736390435323893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9053520509554571305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &9083632884559623146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5723688111228654087}
+  - component: {fileID: 52655555616462572}
+  - component: {fileID: 6713913390258963488}
+  - component: {fileID: 5761075552024335252}
+  - component: {fileID: 6010365634301328186}
+  - component: {fileID: 7963596892580076249}
+  - component: {fileID: 6308668404000010909}
+  m_Layer: 8
+  m_Name: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5723688111228654087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0.000000119209275}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20000, y: -19999.998, z: -19999.998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8105021519178825623}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &52655555616462572
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Mesh: {fileID: 4300000, guid: 72c1ca16aca2519409d68351747b39c5, type: 2}
+--- !u!23 &6713913390258963488
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5761075552024335252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90afd046d91a27a4186e5acf26703597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Cardiovascular system.g_LOW_80_85/Systemic veins.g/Internal jugular vein.l
+  BodyType: 
+  BodyPart: 0
+  Collider: {fileID: 6010365634301328186}
+  ZAnatomyController: {fileID: 0}
+  CustomSelectedMaterials:
+  - {fileID: 2100000, guid: 50e98f3ed4a62fc479cebf48d58e3dcb, type: 2}
+  CustomNotSelectedMaterial: {fileID: 2100000, guid: 96736c2b4da77ab46a02e1108e29a98a,
+    type: 2}
+  CustomColor: {r: 0.47450978, g: 0.46666664, b: 0.75294125, a: 1}
+  DividedPrefab: {fileID: 0}
+  ModelsOverList:
+  - {fileID: 0}
+  ModelsBelowList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedModelsList:
+  - ID: 328
+    Name: Left sternocleidomastoid muscle
+    NameSource: Sternocleidomastoid muscle.l
+    Path: 
+    Color: '#FFACA2'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 0}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  - ID: 1514
+    Name: Left internal jugular vein
+    NameSource: Internal jugular vein.l
+    Path: 
+    Color: '#7977C0'
+    Type: 
+    BodyPart: 0
+    ConnectedModelIDs_Anterior: []
+    ConnectedModelIDs_Posterior: []
+    Model: {fileID: 5761075552024335252}
+    DividedModelPrefab: {fileID: 0}
+  m_ConnectedColliders_Over:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_ConnectedColliders_Below:
+  - {fileID: 0}
+  CanBeGrabbed: 0
+  MorgueIsInPlace: 1
+--- !u!64 &6010365634301328186
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 72c1ca16aca2519409d68351747b39c5, type: 2}
+--- !u!114 &7963596892580076249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da62842eb65fcfa4ebfb9ccfd1d1a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OrganController: {fileID: 8538934959954632968}
+  ConnectedPieces:
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 4940324788919351221}
+    LocalPosition: {x: 0.00008126612, y: 0.000044658747, z: 0.00044548724}
+    DistanceTo: {x: -1.6253223, y: 0.8931749, z: 8.909744}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 703309817530426352}
+    LocalPosition: {x: 0.00008441801, y: -0.000014513249, z: 0.00047375873}
+    DistanceTo: {x: -1.6883602, y: -0.29026496, z: 9.475174}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 4714467868621110463}
+    LocalPosition: {x: 0.000054296157, y: -0.00030194316, z: 0.0005847762}
+    DistanceTo: {x: -1.0859232, y: -6.038863, z: 11.695524}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 2965050823664722289}
+    LocalPosition: {x: 0.00016374148, y: 0.000002782906, z: 0.00064660725}
+    DistanceTo: {x: -3.2748299, y: 0.055658117, z: 12.932144}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 8351494432007333059}
+    LocalPosition: {x: 0.00046267855, y: 0.00012349746, z: 0.0015568001}
+    DistanceTo: {x: -9.2535715, y: 2.4699492, z: 31.136002}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 2502709819030145592}
+    LocalPosition: {x: 0.00007083635, y: -0.0003388031, z: 0.00037244026}
+    DistanceTo: {x: -1.4167271, y: -6.776062, z: 7.4488053}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 6695659230972788947}
+    LocalPosition: {x: -0.00009602348, y: -0.00070974656, z: 0.00087930285}
+    DistanceTo: {x: 1.9204698, y: -14.194931, z: 17.586056}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 7176206241620418638}
+    LocalPosition: {x: -0.000064192864, y: -0.0005703114, z: 0.00019217325}
+    DistanceTo: {x: 1.2838573, y: -11.406228, z: 3.843465}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 6309887359483617043}
+    LocalPosition: {x: -0.00011961937, y: -0.00053877156, z: 0.00011804531}
+    DistanceTo: {x: 2.3923874, y: -10.775432, z: 2.360906}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 6406675161125068191}
+    LocalPosition: {x: -0.00007195883, y: -0.00073059136, z: 0.0005099234}
+    DistanceTo: {x: 1.4391766, y: -14.611827, z: 10.198467}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 2108429891337060193}
+    LocalPosition: {x: -0.0000063300845, y: -0.00020665948, z: 0.00047435143}
+    DistanceTo: {x: 0.1266017, y: -4.1331897, z: 9.487029}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  - originalPiece: {fileID: 5723688111228654087}
+    Piece: {fileID: 4728131240856279945}
+    LocalPosition: {x: 0.00009277622, y: -0.000014770637, z: -0.000010021976}
+    DistanceTo: {x: -1.8555245, y: -0.29541272, z: -0.20043953}
+    rotation: {x: -1, y: 0, z: 0, w: -0.00000004371139}
+    IsConnected: 0
+  LocalPositionOnParent: {x: 0, y: 0, z: 0}
+  LocalRotationOnParent: {x: 0.000013660377, y: 180, z: 180}
+  KDTree: {fileID: 6308668404000010909}
+  Collider: {fileID: 6010365634301328186}
+  organGroup: {fileID: 0}
+--- !u!114 &6308668404000010909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9083632884559623146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022fac905ee52d742a20f17e1dd43d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

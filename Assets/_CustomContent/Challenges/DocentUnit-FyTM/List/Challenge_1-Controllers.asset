@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd3da33e8ba94c49abd87948e9856fb, type: 3}
+  m_Name: Challenge_1-Controllers
+  m_EditorClassIdentifier: 
+  Name: Virtual hands controllers
+  Icon: {fileID: -504417554, guid: e29ab478c8e949c40948e38ff3267768, type: 3}
+  VRScreensImage: {fileID: 21300000, guid: 326a565641355e541a9bc1577b821cca, type: 3}
+  Description: "1. Toca 3 veces el bot\xF3n del gatillo (dedo \xEDndice). Primero
+    el derecho, luego el izquierdo y luego los dos. \r\n\r\n2. Toca 3 veces el bot\xF3n
+    del mango del mando. Primero el derecho, luego el izquierdo y luego los dos.
+    \r\n\r\n3. Cerrar/abrir 3 veces la mano virtual (pulsando ambos gatillos). Primero
+    derecha, luego izquierda y luego las dos. "
+  isActived: 0
+  IsFinished: 0
+  challengeID: 1
+  PlayersList: 
